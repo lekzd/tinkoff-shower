@@ -1,0 +1,18 @@
+{
+  "name": "tinkoff-shower",
+  "version": "1.0.0",
+  "description": "Tinkoff corporate theme for http://shwr.me/ presentation engine",
+  "main": "index.html",
+  "scripts": {
+    "serve": "serve ./ --port 8080 --cache 0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lekzd@mail.ru",
+  "license": "MIT",
+  "dependencies": {
+    "shower-core": "^2.1.0"
+  },
+  "devDependencies": {
+    "serve": "^6.4.9"
+  }
+}
