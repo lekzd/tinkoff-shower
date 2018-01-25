@@ -613,6 +613,15 @@ a {
     column-count: 3
 }
 
+.slide .two-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide .two-columns > * {
+    width: 45%;
+}
+
 .slide .shout {
     position: absolute;
     top: 50%;
