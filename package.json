@@ -4,6 +4,7 @@
   "description": "Tinkoff corporate theme for http://shwr.me/ presentation engine",
   "main": "index.html",
   "scripts": {
+    "start": "npm run serve",
     "serve": "serve ./ --port 8080 --cache 0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
