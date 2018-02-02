@@ -304,7 +304,7 @@ a {
     left: 0;
     top: 95px;
     width: 100%;
-    border-bottom: 4px solid #ffdd2d;
+    border-bottom: 4px solid #ffde2d;
 }
 
 .slide .cover-title {
@@ -355,7 +355,11 @@ a {
 }
 
 .slide p.note {
-    color: #979a9e
+    border-left: 5px solid #ffde2d;
+    line-height: 1.5em;
+    color: #333;
+    padding-left: 15px;
+    margin-left: -20px;
 }
 
 .slide a {
@@ -561,6 +565,10 @@ a {
 
 .slide:hover>footer {
     bottom: 0
+}
+
+.slide small {
+    font-size: 70%;
 }
 
 .slide.grid {
